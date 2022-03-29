@@ -70,12 +70,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\Images\patron.jpg" />
+    <Content Include="Pages\Default.aspx" />
     <Content Include="Pages\ForgotPassword.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\Register.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ForgotPassword.aspx.cs">
       <DependentUpon>ForgotPassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

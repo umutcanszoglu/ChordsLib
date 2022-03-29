@@ -27,6 +27,7 @@
                 <asp:Button ID="Button1" runat="server" Text="Login" class="btn btn-outline-dark btn-lg"  />
                 <a href="Register.aspx" class="btn btn-outline-dark btn-lg " role="button" aria-disabled="true" style="margin-left: 10px; ">Create Account</a>
                 <a href="ForgotPassword.aspx" class="btn btn-outline-warning btn-lg " role="button" aria-disabled="true" style="margin-left: 10px; ">Forgot Password</a>
+                <a href="Default.aspx" class="btn btn-outline-warning btn-lg " role="button" aria-disabled="true" style="margin-left: 10px; ">Go Home Page</a>
 
 
 
