@@ -21,7 +21,7 @@
 
         <div class="container" style="padding: 50px;">
             <form class="form-group">
-                <label>Full Name:</label>
+                <label>Full Name: </label>
                 <asp:TextBox ID="TextBox3" runat="server" class="form-control shadow-sm p-3 mb-5 bg-body rounded"></asp:TextBox>
                 <br/>
                 <label for="Email">E-mail:</label>
