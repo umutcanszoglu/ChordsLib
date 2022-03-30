@@ -11,8 +11,17 @@ namespace ChordsLib.Pages
 {
 
 
-    public partial class ForgotPassword
+    public partial class MainPage
     {
+
+        /// <summary>
+        /// head control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
         /// Bootstrap control.
@@ -33,40 +42,40 @@ namespace ChordsLib.Pages
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// LogoDark control.
+        /// Logo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ChordsLib.Pages.User_Controls.LogoDark LogoDark;
+        protected global::ChordsLib.Pages.User_Controls.Logo Logo;
 
         /// <summary>
-        /// TextBox2 control.
+        /// Navbar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::ChordsLib.Pages.User_Controls.Navbar Navbar;
 
         /// <summary>
-        /// Button1 control.
+        /// ContentPlaceHolder1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
 
         /// <summary>
-        /// BottomLight control.
+        /// BottomMaster control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ChordsLib.Pages.BottomSide BottomLight;
+        protected global::ChordsLib.Pages.User_Controls.BottomMaster BottomMaster;
 
         /// <summary>
         /// Scripts control.

@@ -70,14 +70,51 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\User Controls\Bootstrap.ascx" />
+    <Content Include="Pages\User Controls\BottomDark.ascx" />
+    <Content Include="Pages\User Controls\BottomLight.ascx" />
     <Content Include="Pages\Images\patron.jpg" />
     <Content Include="Pages\Default.aspx" />
     <Content Include="Pages\ForgotPassword.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\Register.aspx" />
+    <Content Include="Pages\User Controls\BottomMaster.ascx" />
+    <Content Include="Pages\User Controls\Card.ascx" />
+    <Content Include="Pages\User Controls\Logo.ascx" />
+    <Content Include="Pages\User Controls\LogoDark.ascx" />
+    <Content Include="Pages\User Controls\Navbar.ascx" />
+    <Content Include="Pages\User Controls\Scripts.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Master Pages\MainPage.Master.cs">
+      <DependentUpon>MainPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Master Pages\MainPage.Master.designer.cs">
+      <DependentUpon>MainPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User Controls\Bootstrap.ascx.cs">
+      <DependentUpon>Bootstrap.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User Controls\Bootstrap.ascx.designer.cs">
+      <DependentUpon>Bootstrap.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User Controls\BottomDark.ascx.cs">
+      <DependentUpon>BottomDark.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User Controls\BottomDark.ascx.designer.cs">
+      <DependentUpon>BottomDark.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User Controls\BottomLight.ascx.cs">
+      <DependentUpon>BottomLight.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User Controls\BottomLight.ascx.designer.cs">
+      <DependentUpon>BottomLight.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -106,10 +143,53 @@
     <Compile Include="Pages\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\User Controls\BottomMaster.ascx.cs">
+      <DependentUpon>BottomMaster.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User Controls\BottomMaster.ascx.designer.cs">
+      <DependentUpon>BottomMaster.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User Controls\Card.ascx.cs">
+      <DependentUpon>Card.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User Controls\Card.ascx.designer.cs">
+      <DependentUpon>Card.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User Controls\Logo.ascx.cs">
+      <DependentUpon>Logo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User Controls\Logo.ascx.designer.cs">
+      <DependentUpon>Logo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User Controls\LogoDark.ascx.cs">
+      <DependentUpon>LogoDark.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User Controls\LogoDark.ascx.designer.cs">
+      <DependentUpon>LogoDark.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User Controls\Navbar.ascx.cs">
+      <DependentUpon>Navbar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User Controls\Navbar.ascx.designer.cs">
+      <DependentUpon>Navbar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User Controls\Scripts.ascx.cs">
+      <DependentUpon>Scripts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User Controls\Scripts.ascx.designer.cs">
+      <DependentUpon>Scripts.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Pages\Master Pages\MainPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
