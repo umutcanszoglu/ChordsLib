@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Profile.master.cs" Inherits="ChordsLib.Pages.Master_Pages.Profile" %>
+
+<%@ Register Src="~/Pages/User Controls/Bootstrap.ascx" TagPrefix="uc1" TagName="Bootstrap" %>
+<%@ Register Src="~/Pages/User Controls/Scripts.ascx" TagPrefix="uc1" TagName="Scripts" %>
+<%@ Register TagPrefix="uc1" TagName="Navbar" Src="~/Pages/User Controls/Navbar.ascx" %>
+<%@ Register TagPrefix="uc1" TagName="Logo" Src="~/Pages/User Controls/Logo.ascx" %>
+<%@ Register TagPrefix="uc1" TagName="BottomDark" Src="~/Pages/User Controls/BottomDark.ascx" %>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <uc1:Bootstrap runat="server" ID="Bootstrap" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #343a40!important;">
+            <uc1:Logo runat="server" id="Logo" />
+            <h1 style="color: white; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">CHORDSLIB</h1>
+            <br/>
+            <uc1:Navbar runat="server" ID="Navbar" />
+        </div> 
+        <div class="container">
+                <div class="row">
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded text-center" style="width: 18rem;">
+                        <img src="Images/patron.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">User Name</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="#" style="color: black">manage</a></li>
+                            <li class="list-group-item"><a href="#" style="color: black" >repertory</a></li>
+                            <li class="list-group-item"><a href="#" style="color: black">since member</a></li>
+                        </ul>
+                        <div class="card-body text-center">
+                            <asp:Button ID="Button1" runat="server" Text="Save All Changes" class="btn btn-outline-warning"/>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+        <uc1:BottomDark runat="server" id="BottomDark" />
+    </form>
+</body>
+<uc1:Scripts runat="server" ID="Scripts" />
+</html>

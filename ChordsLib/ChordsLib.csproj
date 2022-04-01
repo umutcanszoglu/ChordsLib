@@ -70,7 +70,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\Images\akor.png" />
     <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\Profile.aspx" />
     <Content Include="Pages\User Controls\Bootstrap.ascx" />
     <Content Include="Pages\User Controls\BottomDark.ascx" />
     <Content Include="Pages\User Controls\BottomLight.ascx" />
@@ -101,12 +103,26 @@
     <Compile Include="Pages\Master Pages\MainPage.Master.designer.cs">
       <DependentUpon>MainPage.Master</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Master Pages\Profile.Master.cs">
+      <DependentUpon>Profile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Master Pages\Profile.Master.designer.cs">
+      <DependentUpon>Profile.Master</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Master Pages\WhiteTheme.Master.cs">
       <DependentUpon>WhiteTheme.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\Master Pages\WhiteTheme.Master.designer.cs">
       <DependentUpon>WhiteTheme.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\User Controls\Bootstrap.ascx.cs">
       <DependentUpon>Bootstrap.ascx</DependentUpon>
@@ -198,6 +214,7 @@
     <None Include="packages.config" />
     <Content Include="Pages\Master Pages\MainPage.Master" />
     <Content Include="Pages\Master Pages\WhiteTheme.Master" />
+    <Content Include="Pages\Master Pages\Profile.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
