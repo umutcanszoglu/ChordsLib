@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ChordsLib.Pages
+namespace ChordsLib.Pages.Master_Pages
 {
 
 
-    public partial class MainPage
+    public partial class WhiteTheme
     {
 
         /// <summary>
@@ -42,22 +42,13 @@ namespace ChordsLib.Pages
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Logo control.
+        /// LogoDark control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ChordsLib.Pages.User_Controls.Logo Logo;
-
-        /// <summary>
-        /// Navbar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ChordsLib.Pages.User_Controls.Navbar Navbar;
+        protected global::ChordsLib.Pages.User_Controls.LogoDark LogoDark;
 
         /// <summary>
         /// ContentPlaceHolder1 control.
@@ -69,13 +60,13 @@ namespace ChordsLib.Pages
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
 
         /// <summary>
-        /// BottomDark control.
+        /// BottomLight control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ChordsLib.Pages.User_Controls.BottomDark BottomDark;
+        protected global::ChordsLib.Pages.BottomSide BottomLight;
 
         /// <summary>
         /// Scripts control.

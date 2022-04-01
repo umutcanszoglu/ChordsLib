@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ChordsLib.Pages.User_Controls
 {
-    public partial class BottomMaster : System.Web.UI.UserControl
+    public partial class NavbarLogo : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -10,7 +10,7 @@
 
 namespace ChordsLib.Pages.User_Controls
 {
-    public partial class BottomMaster
+    public partial class NavbarLogo
     {
     }
 }

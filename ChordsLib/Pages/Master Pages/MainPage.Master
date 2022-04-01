@@ -3,7 +3,8 @@
 <%@ Register Src="~/Pages/User Controls/Scripts.ascx" TagPrefix="uc1" TagName="Scripts" %>
 <%@ Register Src="~/Pages/User Controls/Navbar.ascx" TagPrefix="uc1" TagName="Navbar" %>
 <%@ Register TagPrefix="uc1" TagName="Logo" Src="~/Pages/User Controls/Logo.ascx" %>
-<%@ Register Src="~/Pages/User Controls/BottomMaster.ascx" TagPrefix="uc1" TagName="BottomMaster" %>
+<%@ Register Src="~/Pages/User Controls/BottomDark.ascx" TagPrefix="uc1" TagName="BottomDark" %>
+
 
 
 <!DOCTYPE html>
@@ -29,7 +30,7 @@
             </asp:ContentPlaceHolder>
         </div>
 
-        <uc1:BottomMaster runat="server" id="BottomMaster" />
+        <uc1:BottomDark runat="server" id="BottomDark" />
     </form>
 </body>
 <uc1:Scripts runat="server" ID="Scripts" />

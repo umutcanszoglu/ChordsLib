@@ -70,29 +70,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\User Controls\Bootstrap.ascx" />
     <Content Include="Pages\User Controls\BottomDark.ascx" />
     <Content Include="Pages\User Controls\BottomLight.ascx" />
     <Content Include="Pages\Images\patron.jpg" />
     <Content Include="Pages\Default.aspx" />
-    <Content Include="Pages\ForgotPassword.aspx" />
-    <Content Include="Pages\Login.aspx" />
-    <Content Include="Pages\Register.aspx" />
-    <Content Include="Pages\User Controls\BottomMaster.ascx" />
     <Content Include="Pages\User Controls\Card.ascx" />
     <Content Include="Pages\User Controls\Logo.ascx" />
     <Content Include="Pages\User Controls\LogoDark.ascx" />
     <Content Include="Pages\User Controls\Navbar.ascx" />
+    <Content Include="Pages\User Controls\NavbarLogo.ascx" />
     <Content Include="Pages\User Controls\Scripts.ascx" />
+    <Content Include="Pages\Register.aspx" />
+    <Content Include="Pages\ForgotPassword.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Master Pages\MainPage.Master.cs">
       <DependentUpon>MainPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\Master Pages\MainPage.Master.designer.cs">
       <DependentUpon>MainPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Master Pages\WhiteTheme.Master.cs">
+      <DependentUpon>WhiteTheme.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Master Pages\WhiteTheme.Master.designer.cs">
+      <DependentUpon>WhiteTheme.Master</DependentUpon>
     </Compile>
     <Compile Include="Pages\User Controls\Bootstrap.ascx.cs">
       <DependentUpon>Bootstrap.ascx</DependentUpon>
@@ -122,34 +136,6 @@
     <Compile Include="Pages\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ForgotPassword.aspx.cs">
-      <DependentUpon>ForgotPassword.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\ForgotPassword.aspx.designer.cs">
-      <DependentUpon>ForgotPassword.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\User Controls\BottomMaster.ascx.cs">
-      <DependentUpon>BottomMaster.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\User Controls\BottomMaster.ascx.designer.cs">
-      <DependentUpon>BottomMaster.ascx</DependentUpon>
-    </Compile>
     <Compile Include="Pages\User Controls\Card.ascx.cs">
       <DependentUpon>Card.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -178,6 +164,13 @@
     <Compile Include="Pages\User Controls\Navbar.ascx.designer.cs">
       <DependentUpon>Navbar.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\User Controls\NavbarLogo.ascx.cs">
+      <DependentUpon>NavbarLogo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User Controls\NavbarLogo.ascx.designer.cs">
+      <DependentUpon>NavbarLogo.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\User Controls\Scripts.ascx.cs">
       <DependentUpon>Scripts.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -185,11 +178,26 @@
     <Compile Include="Pages\User Controls\Scripts.ascx.designer.cs">
       <DependentUpon>Scripts.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Pages\Master Pages\MainPage.Master" />
+    <Content Include="Pages\Master Pages\WhiteTheme.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
