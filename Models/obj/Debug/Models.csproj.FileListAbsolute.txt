@@ -1,0 +1,6 @@
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\Models\bin\Debug\Models.dll
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\Models\bin\Debug\Models.pdb
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\Models\obj\Debug\Models.dll
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\Models\obj\Debug\Models.pdb

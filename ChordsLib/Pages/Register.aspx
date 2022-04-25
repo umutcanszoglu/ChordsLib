@@ -5,13 +5,18 @@
     <div class="container" style="padding: 50px;">
     <form class="form-group">
     <label>Full Name: </label>
-    <asp:TextBox ID="TextBox3" runat="server" class="form-control shadow-sm p-3 mb-5 bg-body rounded"></asp:TextBox>
-    <br/>
+    <asp:TextBox ID="txtName" runat="server" class="form-control shadow-sm p-3 mb-5 bg-body rounded"></asp:TextBox>
+    
     <label for="Email">E-mail:</label>
-    <asp:TextBox ID="TextBox2" runat="server" class="form-control shadow-sm p-3 mb-5 bg-body rounded" type="email"></asp:TextBox>
-    <br/>
+    <asp:TextBox ID="txtEmail" runat="server" class="form-control shadow-sm p-3 mb-5 bg-body rounded" type="email"></asp:TextBox>
+    
     <label for="password">Password:</label>
-    <asp:TextBox ID="TextBox1" runat="server" class="form-control shadow-sm p-3 mb-5 bg-body rounded" type="password"></asp:TextBox>
-    <br/>
-    <asp:Button ID="Button1" runat="server" Text="Sign Up" class="btn btn-outline-dark btn-lg" />
+    <asp:TextBox ID="txtPassword" runat="server" class="form-control shadow-sm p-3 mb-5 bg-body rounded" type="password"></asp:TextBox>
+        
+        <label for="password">Check Password:</label>
+        <asp:TextBox ID="txtCheckPassword" runat="server" class="form-control shadow-sm p-3 mb-5 bg-body rounded" type="password"></asp:TextBox>
+    
+    <asp:Button ID="btnSignUp" runat="server" Text="Sign Up" class="btn btn-outline-dark btn-lg" OnClick="btnSignUp_Click" />
+    </form>
+    </div>
 </asp:Content>

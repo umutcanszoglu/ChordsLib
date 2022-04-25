@@ -59,3 +59,12 @@ C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\obj\Debug\Chor
 C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\obj\Debug\ChordsLib.csproj.CopyComplete
 C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\obj\Debug\ChordsLib.dll
 C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\obj\Debug\ChordsLib.pdb
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\bin\DatabaseAccessLayer.dll
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\bin\EntityFramework.dll
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\bin\EntityFramework.SqlServer.dll
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\bin\DatabaseAccessLayer.pdb
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\bin\DatabaseAccessLayer.dll.config
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\bin\EntityFramework.xml
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\bin\EntityFramework.SqlServer.xml
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\bin\Models.dll
+C:\Users\umutc\Desktop\umut\ASP.NET\ChordsLibWebProject\ChordsLib\bin\Models.pdb
